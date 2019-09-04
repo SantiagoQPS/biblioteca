@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Index</title>
+    <title>Creacion de Autores</title>
 </head>
 <body>
-    <h1> Este es el index de mi proyecto </h1>
+    <form method="POST">
+        {{ autor_form.as_p }}
+        <button type = "submit">Crear</button>
+    </form>
 </body>
 </html>
